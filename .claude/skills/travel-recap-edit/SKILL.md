@@ -33,32 +33,33 @@ ready-to-use ffmpeg recipes: `references/ffmpeg-recipes.md`).
 
 Pick 5–7 per edit; do not stack everything. Timing is in beats (b).
 
-| #   | Technique                                      | Seen in                  | How it plays                                                                                                                                           | Timing          |
-| --- | ---------------------------------------------- | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------- |
-| T1  | **Flash-cut opener**                           | Barcelona                | 8–12 different shots, each ⅓ b, before the title                                                                                                       | 2–2.5 s total   |
-| T2  | **Font-cycle title**                           | Barcelona, Recap         | Small serif kicker ("Welcome to") + huge place name in yellow; the place name swaps typeface every ⅓ b (bold sans → script → wide → serif), then locks | 3–4 s           |
-| T3  | **Title over flash montage**                   | Barcelona                | Title stays locked while the background swaps every ⅓ b                                                                                                | 1.5–2.5 s       |
-| T4  | **Letterbox squeeze-out**                      | Barcelona                | Black bars grow from top+bottom until the frame is a slit, then black — ends the intro section                                                         | 1–1.5 s         |
-| T5  | **Scattered letter reveal**                    | Japan                    | Heavy red condensed title; letters fade in out of order over ~1.5 s, then hold                                                                         | 2.5 s           |
-| T6  | **Text behind subject**                        | Japan, Disneyland        | Title sits _behind_ a person / landmark (subject masked on top of the text)                                                                            | with T5/T7      |
-| T7  | **Type-on title**                              | Disneyland               | Small red kicker words first, then the big word types on letter by letter                                                                              | 1.5 s           |
-| T8  | **Black beat**                                 | Japan                    | 0.5–0.8 s of pure black right before the drop                                                                                                          | on the pre-drop |
-| T9  | **Hand-cover transition**                      | Disneyland               | Hand / palm moves into the lens, fills frame, next shot starts from the hand pulling away                                                              | 0.5–1 s         |
-| T10 | **Whip / motion-blur streak**                  | Japan, HK, Recap         | Horizontal or vertical directional blur between two shots moving the same way                                                                          | 4–6 frames      |
-| T11 | **White / cream flash**                        | Japan, Disneyland, Recap | 2–4 frame overexposed white frame at a section change                                                                                                  | on a big hit    |
-| T12 | **Match-cut series**                           | Hong Kong                | Same framing repeated across places (walking past station signs, doors, signboards) — one per beat                                                     | 1 b each        |
-| T13 | **Spin / Dutch-tilt transition**               | Hong Kong                | Shot rotates 15–90° into the next                                                                                                                      | 0.5 s           |
-| T14 | **Speed ramp**                                 | Japan, Disneyland        | Real-time → slow-mo (or fast → normal) inside one shot, ramp lands on a hit                                                                            | 1–2 s           |
-| T15 | **B&W → color pop**                            | Disneyland, Recap        | Shot starts monochrome, snaps to full color on the beat                                                                                                | 2 b             |
-| T16 | **Photo-scatter intro**                        | Recap                    | Small photos flash at random positions on black, one per ⅓ b                                                                                           | 1–1.5 s         |
-| T17 | **Stacked recap title**                        | Recap                    | Kicker "RECAP" / huge "TRAVEL VLOG" / tracked tagline "TAKE EVERY MOMENT" in yellow condensed bold                                                     | 3–4 s           |
-| T18 | **Card pop (PiP)**                             | Japan                    | A second shot appears as a floating card over the first                                                                                                | 1 b             |
-| T19 | **Fireworks / sunset finale + group end pose** | Disneyland               | Biggest visual saved for the last 20 %, then one held group shot to the end                                                                            | last 4–6 s      |
-| T20 | **Word-per-beat title with cursor**            | Next Station             | "NEXT" → "STATION" → "IS_" one word per beat in huge red condensed, underscore cursor blinks for 2–3 beats, then the place name lands                  | 3 s             |
-| T21 | **Silhouette flash**                           | Next Station             | On the hit, the people in front of the title flash solid white (their mask filled white) for 2 frames                                                  | 2 frames        |
-| T22 | **Corner HUD tags**                            | Next Station             | Small red two-line tags pinned in the corners for the whole montage: "MOMENTS IN / BAGUIO2026" left, "SHOT WITH / IPHONE" right                        | whole montage   |
-| T23 | **Grid / frame overlays**                      | Next Station             | Thin white rule-of-thirds grid or a thick red border pulses on for 2–3 beats over a shot                                                               | 1–1.5 s         |
-| T24 | **Landmark title ending**                      | Next Station             | Last shot is the hero landmark with the big place name back on screen (behind the landmark)                                                            | last 2 s        |
+| #   | Technique                                      | Seen in                  | How it plays                                                                                                                                           | Timing           |
+| --- | ---------------------------------------------- | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------- |
+| T1  | **Flash-cut opener**                           | Barcelona                | 8–12 different shots, each ⅓ b, before the title                                                                                                       | 2–2.5 s total    |
+| T2  | **Font-cycle title**                           | Barcelona, Recap         | Small serif kicker ("Welcome to") + huge place name in yellow; the place name swaps typeface every ⅓ b (bold sans → script → wide → serif), then locks | 3–4 s            |
+| T3  | **Title over flash montage**                   | Barcelona                | Title stays locked while the background swaps every ⅓ b                                                                                                | 1.5–2.5 s        |
+| T4  | **Letterbox squeeze-out**                      | Barcelona                | Black bars grow from top+bottom until the frame is a slit, then black — ends the intro section                                                         | 1–1.5 s          |
+| T5  | **Scattered letter reveal**                    | Japan                    | Heavy red condensed title; letters fade in out of order over ~1.5 s, then hold                                                                         | 2.5 s            |
+| T6  | **Text behind subject**                        | Japan, Disneyland        | Title sits _behind_ a person / landmark (subject masked on top of the text)                                                                            | with T5/T7       |
+| T7  | **Type-on title**                              | Disneyland               | Small red kicker words first, then the big word types on letter by letter                                                                              | 1.5 s            |
+| T8  | **Black beat**                                 | Japan                    | 0.5–0.8 s of pure black right before the drop                                                                                                          | on the pre-drop  |
+| T9  | **Hand-cover transition**                      | Disneyland               | Hand / palm moves into the lens, fills frame, next shot starts from the hand pulling away                                                              | 0.5–1 s          |
+| T10 | **Whip / motion-blur streak**                  | Japan, HK, Recap         | Horizontal or vertical directional blur between two shots moving the same way                                                                          | 4–6 frames       |
+| T11 | **White / cream flash**                        | Japan, Disneyland, Recap | 2–4 frame overexposed white frame at a section change                                                                                                  | on a big hit     |
+| T12 | **Match-cut series**                           | Hong Kong                | Same framing repeated across places (walking past station signs, doors, signboards) — one per beat                                                     | 1 b each         |
+| T13 | **Spin / Dutch-tilt transition**               | Hong Kong                | Shot rotates 15–90° into the next                                                                                                                      | 0.5 s            |
+| T14 | **Speed ramp**                                 | Japan, Disneyland        | Real-time → slow-mo (or fast → normal) inside one shot, ramp lands on a hit                                                                            | 1–2 s            |
+| T15 | **B&W → color pop**                            | Disneyland, Recap        | Shot starts monochrome, snaps to full color on the beat                                                                                                | 2 b              |
+| T16 | **Photo-scatter intro**                        | Recap                    | Small photos flash at random positions on black, one per ⅓ b                                                                                           | 1–1.5 s          |
+| T17 | **Stacked recap title**                        | Recap                    | Kicker "RECAP" / huge "TRAVEL VLOG" / tracked tagline "TAKE EVERY MOMENT" in yellow condensed bold                                                     | 3–4 s            |
+| T18 | **Card pop (PiP)**                             | Japan                    | A second shot appears as a floating card over the first                                                                                                | 1 b              |
+| T19 | **Fireworks / sunset finale + group end pose** | Disneyland               | Biggest visual saved for the last 20 %, then one held group shot to the end                                                                            | last 4–6 s       |
+| T20 | **Word-per-beat title with cursor**            | Next Station             | "NEXT" → "STATION" → "IS_" one word per beat in huge red condensed, underscore cursor blinks for 2–3 beats, then the place name lands                  | 3 s              |
+| T21 | **Silhouette flash**                           | Next Station             | On the hit, the people in front of the title flash solid white (their mask filled white) for 2 frames                                                  | 2 frames         |
+| T22 | **Corner HUD tags**                            | Next Station             | Small red two-line tags pinned in the corners for the whole montage: "MOMENTS IN / BAGUIO2026" left, "SHOT WITH / IPHONE" right                        | whole montage    |
+| T23 | **Grid / frame overlays**                      | Next Station             | Thin white rule-of-thirds grid or a thick red border pulses on for 2–3 beats over a shot                                                               | 1–1.5 s          |
+| T24 | **Landmark title ending**                      | Next Station             | Last shot is the hero landmark with the big place name back on screen (behind the landmark)                                                            | last 2 s         |
+| T25 | **Song switch**                                | Baguio build             | Day 1 on one inspo sound, hard cut on a beat to a second sound at the DAY 2 title — each day gets its own energy                                       | at the day break |
 
 ## Typography
 
@@ -89,6 +90,18 @@ The references are 16:9. For Reels / TikTok keep the same timing, center the
 title in the upper third, and use vertical whips (T10) for tall shots. For a
 16:9 YouTube cut from vertical clips, use 2–3-panel split screens or a blurred
 background fill; titles go full width.
+
+## Long recaps and people
+
+- **Chronological by default.** Order scenes by when they were shot (file
+  numbers / timestamps); move a shot out of order only for the finale.
+- **A scene for every person.** Give each friend an intro card (name + role)
+  and at least one tagged solo shot per day.
+- **Tag by outfit of the day.** Build a cast sheet (Day 1 / Day 2 outfit per
+  person) from photos the user has confirmed, then tag only shots that match
+  it. Show the sheet to the user.
+- **HD only.** Skip re-exported clips under 1080 px wide (TikTok/IG saves);
+  use the 4K originals and photos instead.
 
 ## Don'ts
 
