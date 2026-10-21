@@ -55,3 +55,14 @@ normal `npx skills add` discovery and from `npx skills add ... --all`. A named
 `metadata.internal`; no environment variable is needed. `INSTALL_INTERNAL_SKILLS=1`
 opts internal skills into normal discovery and bulk installation. This does not
 change local agent discovery.
+
+## Website → video
+
+The `website-to-hyperframes` skill turns a live website URL into a promo or
+site-tour video built from this checkout. It runs the tracked
+`skills/product-launch-video` pipeline through the repo-local CLI
+(`node packages/cli/bin/hyperframes.mjs`, so run `bun run build` first), and
+plans and verifies seams with the same doctrine skills as `changelog-video`
+(vector ledger → `seam-stamp` → `seam-gate verify`). In Codex CLI at the repo
+root, invoke `/website-to-hyperframes` with the URL. The project lands in the
+gitignored `videos/<project>/`.
