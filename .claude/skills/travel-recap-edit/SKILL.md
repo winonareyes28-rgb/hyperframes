@@ -7,7 +7,8 @@ description: House editing style for short travel / barkada trip recap videos (T
 
 The style the user wants for trip videos, distilled from 6 reference edits
 (full shot-by-shot breakdowns: `references/inspo-breakdowns.md`;
-ready-to-use ffmpeg recipes: `references/ffmpeg-recipes.md`).
+ready-to-use ffmpeg recipes: `references/ffmpeg-recipes.md`; a full worked
+build — storyboard, shot plan and renderer — in `builds/baguio-2026/`).
 
 ## The style DNA (all 6 references share this)
 
