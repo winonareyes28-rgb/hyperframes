@@ -44,6 +44,17 @@ TTS uses the tracked `skills/hyperframes-media/scripts/heygen-tts.mjs`
 - A headless Chrome for HyperFrames rendering (`hyperframes doctor` will
   point out the exact ask if it's missing)
 
+## Website → video
+
+The `website-to-hyperframes` skill turns a live website URL into a promo or
+site-tour video built from this checkout. It runs the tracked
+`skills/product-launch-video` pipeline through the repo-local CLI
+(`node packages/cli/bin/hyperframes.mjs`, so run `bun run build` first), and
+plans and verifies seams with the same doctrine skills as `changelog-video`
+(vector ledger → `seam-stamp` → `seam-gate verify`). In Claude Code at the repo
+root, invoke `/website-to-hyperframes` with the URL. The project lands in the
+gitignored `videos/<project>/`.
+
 The parallel set at `.agents/skills/` is a byte-identical copy so Codex
 CLI users get the same auto-discover behaviour — keep the two in sync
 when editing. A `scripts/check-skill-mirror.mjs` check enforces this at
