@@ -55,3 +55,13 @@ normal `npx skills add` discovery and from `npx skills add ... --all`. A named
 `metadata.internal`; no environment variable is needed. `INSTALL_INTERNAL_SKILLS=1`
 opts internal skills into normal discovery and bulk installation. This does not
 change local agent discovery.
+
+## Travel recap edit style
+
+The `travel-recap-edit` skill is a house editing style for short travel /
+trip recap videos (TikTok, Reels, Shorts): beat-locked flash-cut openers,
+font-cycling and text-behind-subject titles, letterbox squeezes, whip /
+hand-cover / white-flash transitions, speed ramps and a cinematic grade.
+It was distilled from six reference edits; shot-by-shot breakdowns live in
+`travel-recap-edit/references/inspo-breakdowns.md` and tested ffmpeg recipes
+in `travel-recap-edit/references/ffmpeg-recipes.md`.
